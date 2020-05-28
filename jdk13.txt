@@ -1,0 +1,155 @@
+Provider: SunRsaSignversion: 13.0
+Provider: SunECversion: 13.0
+Provider: SunJSSEversion: 13.0
+Provider: SunJCEversion: 13.0
+Provider: SunJGSSversion: 13.0
+Provider: SunSASLversion: 13.0
+Provider: XMLDSigversion: 13.0
+Provider: SunPCSCversion: 13.0
+Provider: JdkLDAPversion: 13.0
+Provider: JdkSASLversion: 13.0
+Provider: SunMSCAPIversion: 13.0
+Provider: SunPKCS11version: 13.0
+
+Cipher AES_192/CBC/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES192_CBC_NoPadding
+	Cipher AES_192/OFB/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES192_OFB_NoPadding
+	SecretKeyFactory PBEWithSHA1AndDESede	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithSHA1AndDESede
+	Cipher AES_192/CFB/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES192_CFB_NoPadding
+	SecretKeyFactory PBEWithSHA1AndRC2_40	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC2_40
+	Cipher AESWrap_192	 -----> Class :com.sun.crypto.provider.AESWrapCipher$AES192
+	SecretKeyFactory PBEWithSHA1AndRC2_128	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC2_128
+	Cipher PBEWithHmacSHA224AndAES_256	 -----> Class :com.sun.crypto.provider.PBES2Core$HmacSHA224AndAES_256
+	KeyPairGenerator DiffieHellman	 -----> Class :com.sun.crypto.provider.DHKeyPairGenerator
+	Cipher AES_192/ECB/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES192_ECB_NoPadding
+	SecretKeyFactory PBKDF2WithHmacSHA1	 -----> Class :com.sun.crypto.provider.PBKDF2Core$HmacSHA1
+	KeyGenerator HmacSHA384	 -----> Class :com.sun.crypto.provider.KeyGeneratorCore$HmacSHA2KG$SHA384
+	KeyGenerator SunTlsKeyMaterial	 -----> Class :com.sun.crypto.provider.TlsKeyMaterialGenerator
+	Cipher AES_192/GCM/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES192_GCM_NoPadding
+	KeyAgreement DiffieHellman	 -----> Class :com.sun.crypto.provider.DHKeyAgreement
+	AlgorithmParameters PBEWithMD5AndDES	 -----> Class :com.sun.crypto.provider.PBEParameters
+	SecretKeyFactory PBEWithMD5AndDES	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithMD5AndDES
+	Mac PBEWithHmacSHA512	 -----> Class :com.sun.crypto.provider.PBMAC1Core$HmacSHA512
+	Cipher ChaCha20-Poly1305	 -----> Class :com.sun.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305
+	Cipher PBEWithHmacSHA384AndAES_128	 -----> Class :com.sun.crypto.provider.PBES2Core$HmacSHA384AndAES_128
+	Cipher AES_128/ECB/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES128_ECB_NoPadding
+	KeyGenerator AES	 -----> Class :com.sun.crypto.provider.AESKeyGenerator
+	Cipher AES_128/OFB/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES128_OFB_NoPadding
+	KeyGenerator SunTlsMasterSecret	 -----> Class :com.sun.crypto.provider.TlsMasterSecretGenerator
+	Cipher AES_128/CBC/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES128_CBC_NoPadding
+	Cipher AESWrap_128	 -----> Class :com.sun.crypto.provider.AESWrapCipher$AES128
+	Cipher AES_128/CFB/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES128_CFB_NoPadding
+	SecretKeyFactory PBKDF2WithHmacSHA512	 -----> Class :com.sun.crypto.provider.PBKDF2Core$HmacSHA512
+	Cipher AES_128/GCM/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES128_GCM_NoPadding
+	KeyGenerator SunTlsRsaPremasterSecret	 -----> Class :com.sun.crypto.provider.TlsRsaPremasterSecretGenerator
+	SecretKeyFactory PBEWithHmacSHA224AndAES_128	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithHmacSHA224AndAES_128
+	Mac HmacPBESHA512	 -----> Class :com.sun.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA512
+	KeyGenerator HmacSHA256	 -----> Class :com.sun.crypto.provider.KeyGeneratorCore$HmacSHA2KG$SHA256
+	Cipher AES_256/GCM/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES256_GCM_NoPadding
+	SecretKeyFactory PBEWithHmacSHA384AndAES_128	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithHmacSHA384AndAES_128
+	AlgorithmParameters DESede	 -----> Class :com.sun.crypto.provider.DESedeParameters
+	Mac HmacSHA512/224	 -----> Class :com.sun.crypto.provider.HmacCore$HmacSHA512_224
+	AlgorithmParameters PBES2	 -----> Class :com.sun.crypto.provider.PBES2Parameters$General
+	SecretKeyFactory PBEWithSHA1AndRC4_40	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC4_40
+	SecretKeyFactory PBEWithSHA1AndRC4_128	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithSHA1AndRC4_128
+	Cipher AES_256/CFB/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES256_CFB_NoPadding
+	Cipher AESWrap_256	 -----> Class :com.sun.crypto.provider.AESWrapCipher$AES256
+	KeyGenerator DES	 -----> Class :com.sun.crypto.provider.DESKeyGenerator
+	Cipher PBEWithMD5AndDES	 -----> Class :com.sun.crypto.provider.PBEWithMD5AndDESCipher
+	Cipher AES_256/ECB/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES256_ECB_NoPadding
+	Cipher AES_256/CBC/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES256_CBC_NoPadding
+	SecretKeyFactory PBEWithHmacSHA224AndAES_256	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithHmacSHA224AndAES_256
+	Cipher AES_256/OFB/NoPadding	 -----> Class :com.sun.crypto.provider.AESCipher$AES256_OFB_NoPadding
+	AlgorithmParameters AES	 -----> Class :com.sun.crypto.provider.AESParameters
+	Mac HmacSHA512/256	 -----> Class :com.sun.crypto.provider.HmacCore$HmacSHA512_256
+	Cipher DESedeWrap	 -----> Class :com.sun.crypto.provider.DESedeWrapCipher
+	AlgorithmParameters DiffieHellman	 -----> Class :com.sun.crypto.provider.DHParameters
+	Cipher PBEWithHmacSHA224AndAES_128	 -----> Class :com.sun.crypto.provider.PBES2Core$HmacSHA224AndAES_128
+	AlgorithmParameters PBEWithSHA1AndRC2_128	 -----> Class :com.sun.crypto.provider.PBEParameters
+	Mac HmacPBESHA512/224	 -----> Class :com.sun.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA512_224
+	KeyGenerator DESede	 -----> Class :com.sun.crypto.provider.DESedeKeyGenerator
+	Cipher AES	 -----> Class :com.sun.crypto.provider.AESCipher$General
+	KeyGenerator HmacSHA1	 -----> Class :com.sun.crypto.provider.HmacSHA1KeyGenerator
+	KeyGenerator HmacSHA224	 -----> Class :com.sun.crypto.provider.KeyGeneratorCore$HmacSHA2KG$SHA224
+	Mac HmacSHA1	 -----> Class :com.sun.crypto.provider.HmacSHA1
+	Mac HmacSHA224	 -----> Class :com.sun.crypto.provider.HmacCore$HmacSHA224
+	Mac HmacSHA256	 -----> Class :com.sun.crypto.provider.HmacCore$HmacSHA256
+	Cipher ChaCha20	 -----> Class :com.sun.crypto.provider.ChaCha20Cipher$ChaCha20Only
+	Mac HmacPBESHA1	 -----> Class :com.sun.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA1
+	KeyFactory DiffieHellman	 -----> Class :com.sun.crypto.provider.DHKeyFactory
+	AlgorithmParameters PBEWithSHA1AndRC4_40	 -----> Class :com.sun.crypto.provider.PBEParameters
+	AlgorithmParameters ChaCha20-Poly1305	 -----> Class :com.sun.crypto.provider.ChaCha20Poly1305Parameters
+	AlgorithmParameterGenerator DiffieHellman	 -----> Class :com.sun.crypto.provider.DHParameterGenerator
+	Mac SslMacMD5	 -----> Class :com.sun.crypto.provider.SslMacCore$SslMacMD5
+	Cipher DESede	 -----> Class :com.sun.crypto.provider.DESedeCipher
+	Cipher PBEWithHmacSHA512AndAES_128	 -----> Class :com.sun.crypto.provider.PBES2Core$HmacSHA512AndAES_128
+	AlgorithmParameters OAEP	 -----> Class :com.sun.crypto.provider.OAEPParameters
+	AlgorithmParameters DES	 -----> Class :com.sun.crypto.provider.DESParameters
+	SecretKeyFactory PBEWithMD5AndTripleDES	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithMD5AndTripleDES
+	Cipher PBEWithSHA1AndRC2_128	 -----> Class :com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC2_128
+	Cipher PBEWithSHA1AndRC2_40	 -----> Class :com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC2_40
+	Cipher PBEWithSHA1AndDESede	 -----> Class :com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede
+	Cipher PBEWithSHA1AndRC4_128	 -----> Class :com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC4_128
+	Cipher PBEWithSHA1AndRC4_40	 -----> Class :com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndRC4_40
+	KeyGenerator HmacSHA512	 -----> Class :com.sun.crypto.provider.KeyGeneratorCore$HmacSHA2KG$SHA512
+	Mac PBEWithHmacSHA384	 -----> Class :com.sun.crypto.provider.PBMAC1Core$HmacSHA384
+	SecretKeyFactory PBKDF2WithHmacSHA384	 -----> Class :com.sun.crypto.provider.PBKDF2Core$HmacSHA384
+	Mac PBEWithHmacSHA1	 -----> Class :com.sun.crypto.provider.PBMAC1Core$HmacSHA1
+	AlgorithmParameters PBEWithHmacSHA224AndAES_256	 -----> Class :com.sun.crypto.provider.PBES2Parameters$HmacSHA224AndAES_256
+	Cipher PBEWithHmacSHA512AndAES_256	 -----> Class :com.sun.crypto.provider.PBES2Core$HmacSHA512AndAES_256
+	Cipher ARCFOUR	 -----> Class :com.sun.crypto.provider.ARCFOURCipher
+	AlgorithmParameters PBEWithHmacSHA224AndAES_128	 -----> Class :com.sun.crypto.provider.PBES2Parameters$HmacSHA224AndAES_128
+	AlgorithmParameters PBEWithSHA1AndDESede	 -----> Class :com.sun.crypto.provider.PBEParameters
+	Mac HmacSHA384	 -----> Class :com.sun.crypto.provider.HmacCore$HmacSHA384
+	Mac HmacSHA512	 -----> Class :com.sun.crypto.provider.HmacCore$HmacSHA512
+	Mac HmacPBESHA512/256	 -----> Class :com.sun.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA512_256
+	Cipher PBEWithHmacSHA256AndAES_256	 -----> Class :com.sun.crypto.provider.PBES2Core$HmacSHA256AndAES_256
+	AlgorithmParameters RC2	 -----> Class :com.sun.crypto.provider.RC2Parameters
+	AlgorithmParameters PBEWithSHA1AndRC4_128	 -----> Class :com.sun.crypto.provider.PBEParameters
+	Mac HmacPBESHA384	 -----> Class :com.sun.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA384
+	Cipher AESWrap	 -----> Class :com.sun.crypto.provider.AESWrapCipher$General
+	SecretKeyFactory PBKDF2WithHmacSHA256	 -----> Class :com.sun.crypto.provider.PBKDF2Core$HmacSHA256
+	Cipher RSA	 -----> Class :com.sun.crypto.provider.RSACipher
+	SecretKeyFactory PBEWithHmacSHA384AndAES_256	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithHmacSHA384AndAES_256
+	Cipher RC2	 -----> Class :com.sun.crypto.provider.RC2Cipher
+	AlgorithmParameters PBEWithSHA1AndRC2_40	 -----> Class :com.sun.crypto.provider.PBEParameters
+	Cipher PBEWithHmacSHA256AndAES_128	 -----> Class :com.sun.crypto.provider.PBES2Core$HmacSHA256AndAES_128
+	Mac HmacPBESHA256	 -----> Class :com.sun.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA256
+	SecretKeyFactory PBEWithHmacSHA256AndAES_256	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithHmacSHA256AndAES_256
+	AlgorithmParameters PBEWithHmacSHA256AndAES_128	 -----> Class :com.sun.crypto.provider.PBES2Parameters$HmacSHA256AndAES_128
+	Cipher PBEWithHmacSHA1AndAES_128	 -----> Class :com.sun.crypto.provider.PBES2Core$HmacSHA1AndAES_128
+	Cipher DES	 -----> Class :com.sun.crypto.provider.DESCipher
+	Mac SslMacSHA1	 -----> Class :com.sun.crypto.provider.SslMacCore$SslMacSHA1
+	SecretKeyFactory PBEWithHmacSHA256AndAES_128	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithHmacSHA256AndAES_128
+	Mac PBEWithHmacSHA224	 -----> Class :com.sun.crypto.provider.PBMAC1Core$HmacSHA224
+	AlgorithmParameters PBEWithHmacSHA256AndAES_256	 -----> Class :com.sun.crypto.provider.PBES2Parameters$HmacSHA256AndAES_256
+	Cipher PBEWithMD5AndTripleDES	 -----> Class :com.sun.crypto.provider.PBEWithMD5AndTripleDESCipher
+	SecretKeyFactory PBKDF2WithHmacSHA224	 -----> Class :com.sun.crypto.provider.PBKDF2Core$HmacSHA224
+	SecretKeyFactory PBEWithHmacSHA1AndAES_128	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithHmacSHA1AndAES_128
+	KeyGenerator SunTls12Prf	 -----> Class :com.sun.crypto.provider.TlsPrfGenerator$V12
+	KeyGenerator Blowfish	 -----> Class :com.sun.crypto.provider.BlowfishKeyGenerator
+	Mac HmacPBESHA224	 -----> Class :com.sun.crypto.provider.HmacPKCS12PBECore$HmacPKCS12PBE_SHA224
+	Mac PBEWithHmacSHA256	 -----> Class :com.sun.crypto.provider.PBMAC1Core$HmacSHA256
+	KeyGenerator HmacMD5	 -----> Class :com.sun.crypto.provider.HmacMD5KeyGenerator
+	Mac HmacMD5	 -----> Class :com.sun.crypto.provider.HmacMD5
+	SecretKeyFactory PBEWithHmacSHA1AndAES_256	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithHmacSHA1AndAES_256
+	AlgorithmParameters PBEWithHmacSHA512AndAES_128	 -----> Class :com.sun.crypto.provider.PBES2Parameters$HmacSHA512AndAES_128
+	AlgorithmParameters PBEWithHmacSHA1AndAES_128	 -----> Class :com.sun.crypto.provider.PBES2Parameters$HmacSHA1AndAES_128
+	SecretKeyFactory DES	 -----> Class :com.sun.crypto.provider.DESKeyFactory
+	Cipher PBEWithHmacSHA1AndAES_256	 -----> Class :com.sun.crypto.provider.PBES2Core$HmacSHA1AndAES_256
+	SecretKeyFactory DESede	 -----> Class :com.sun.crypto.provider.DESedeKeyFactory
+	AlgorithmParameters PBEWithHmacSHA512AndAES_256	 -----> Class :com.sun.crypto.provider.PBES2Parameters$HmacSHA512AndAES_256
+	AlgorithmParameters PBEWithHmacSHA1AndAES_256	 -----> Class :com.sun.crypto.provider.PBES2Parameters$HmacSHA1AndAES_256
+	KeyGenerator SunTlsPrf	 -----> Class :com.sun.crypto.provider.TlsPrfGenerator$V10
+	KeyGenerator ARCFOUR	 -----> Class :com.sun.crypto.provider.KeyGeneratorCore$ARCFOURKeyGenerator
+	KeyGenerator RC2	 -----> Class :com.sun.crypto.provider.KeyGeneratorCore$RC2KeyGenerator
+	KeyStore JCEKS	 -----> Class :com.sun.crypto.provider.JceKeyStore
+	AlgorithmParameters GCM	 -----> Class :com.sun.crypto.provider.GCMParameters
+	AlgorithmParameters Blowfish	 -----> Class :com.sun.crypto.provider.BlowfishParameters
+	KeyGenerator ChaCha20	 -----> Class :com.sun.crypto.provider.KeyGeneratorCore$ChaCha20KeyGenerator
+	AlgorithmParameters PBEWithHmacSHA384AndAES_256	 -----> Class :com.sun.crypto.provider.PBES2Parameters$HmacSHA384AndAES_256
+	SecretKeyFactory PBEWithHmacSHA512AndAES_128	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithHmacSHA512AndAES_128
+	SecretKeyFactory PBEWithHmacSHA512AndAES_256	 -----> Class :com.sun.crypto.provider.PBEKeyFactory$PBEWithHmacSHA512AndAES_256
+	AlgorithmParameters PBEWithHmacSHA384AndAES_128	 -----> Class :com.sun.crypto.provider.PBES2Parameters$HmacSHA384AndAES_128
+	AlgorithmParameters PBEWithMD5AndTripleDES	 -----> Class :com.sun.crypto.provider.PBEParameters
+	Cipher Blowfish	 -----> Class :com.sun.crypto.provider.BlowfishCipher
+	Cipher PBEWithHmacSHA384AndAES_256	 -----> Class :com.sun.crypto.provider.PBES2Core$HmacSHA384AndAES_256
